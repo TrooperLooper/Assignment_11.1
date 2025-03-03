@@ -1,0 +1,163 @@
+$myFont: Mulish, sans-serif;
+$myColor: rgb(0, 107, 195);
+$myFontSize: 18px();
+
+body {
+  font-family: $myFont;
+padding: 5%;  font-size: $myFontSize(50px);
+//   color: $myColor;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2, a {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.italic {
+    font-style: italic;
+    color: gray;
+}
+
+// .purple {
+// background-color: brown;
+// }
+
+.navbar {
+display: flex;
+background-color: rgb(37, 134, 143);
+align-items: center;
+justify-content: center;
+}
+
+footer {
+    width: 80%;
+    display: flex;
+    background-color: rgb(59, 156, 24);
+    align-items: center;
+    justify-content: center;
+    }
+
+.headline {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    background-color: red;
+}
+
+
+.links, a:link, a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+        color: rgb(0, 146, 137);
+      }
+
+  }
+
+  .links {
+    margin-left: auto;
+  }
+  
+  .secondcontainer {
+    display: grid;
+    background-color: red;
+    grid-template-columns: 3fr, 1fr, 2fr;
+    grid-template-rows: 1fr, 1fr;
+  }
+
+
+//   I tried to color the span part of the text purple, but as soon as i add this, the code BREAKS
+// .purple {
+//     color: $myColor;
+// }
+
+
+.main_container {
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(32, 1fr);
+// grid-auto-flow: column;
+grid-gap: 15px;
+max-width: 90%;
+// overflow: hidden;
+min-width: 0;
+min-height: 0;
+width: 1110px;
+height: 1960px;
+background-color: rgb(39, 147, 159);
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.image_1 {
+grid-area: 1/1/8/4;
+width: 100%;
+
+}
+
+.image_2 {
+grid-area: 8/1/16/4;
+width: 100%;
+
+}
+
+.image_3 {
+grid-area: 16/1/23/4;
+min-width: 0;
+
+}
+
+
+.image_4 {
+grid-area: 1/1/1/4;
+min-width: 0;
+
+}
+
+.image_5 {
+grid-area: 1/4/7/7;
+min-width: 0;
+
+}
+
+.image_6 {
+grid-area: 1/4/1/7;
+}
+
+.image_7 {
+grid-area: 1/4/1/7;
+}
+
+.image_8 {
+grid-area: 1/4/1/7;
+}
+
+.image_9 {
+grid-area: 1/7/1/10;
+}
+
+.image_10 {
+grid-area: 1/7/1/10;
+}
+
+.image_11 {
+grid-area: 1/7/1/10;
+}
+
+.image_12 {
+grid-area: 1/7/1/10;
+}
