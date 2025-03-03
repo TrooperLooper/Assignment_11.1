@@ -1,0 +1,72 @@
+$myFont: Mulish, sans-serif;
+$myColor: rgb(0, 107, 195);
+$myFontSize: 18px;
+
+body {
+  font-family: $myFont;
+padding: 5%;  font-size: $myFontSize(50px);
+//   color: $myColor;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+h3 {
+    font-size: $myfontsize;
+    font-weight: 700px;
+}
+
+a {
+    font-size: 22px;
+}
+
+.italic {
+    font-style: italic;
+    color: gray;
+}
+
+.navbar {
+display: flex;
+background-color: rgb(127, 57, 162);
+align-items: center;
+justify-content: center;
+}
+
+footer {
+    width: 90%;
+    display: flex;
+    background-color: rgb(59, 156, 24);
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.headline {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    background-color: red;
+}
+
+
+.links, a:link, a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+        color: rgb(0, 146, 137);
+      }
+
+  }
+
+  .links {
+    margin-left: auto;
+  }
+  

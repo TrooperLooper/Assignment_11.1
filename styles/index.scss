@@ -1,6 +1,6 @@
 $myFont: Mulish, sans-serif;
 $myColor: rgb(0, 107, 195);
-$myFontSize: 18px();
+$myFontSize: 18px;
 
 body {
   font-family: $myFont;
@@ -10,14 +10,21 @@ padding: 5%;  font-size: $myFontSize(50px);
 
 h1 {
     font-size: 40px;
+    font-weight: 500px;
 }
 
-h2, a {
+h2 {
     font-size: 22px;
+    font-weight: 700px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: $myfontsize;
+    font-weight: 700px;
+}
+
+a {
+    font-size: 22px;
 }
 
 .italic {
@@ -25,23 +32,19 @@ h3 {
     color: gray;
 }
 
-// .purple {
-// background-color: brown;
-// }
-
 .navbar {
 display: flex;
-background-color: rgb(37, 134, 143);
+background-color: rgb(127, 57, 162);
 align-items: center;
 justify-content: center;
 }
 
 footer {
-    width: 80%;
+    width: 90%;
     display: flex;
     background-color: rgb(59, 156, 24);
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     }
 
 .headline {
@@ -69,7 +72,8 @@ footer {
   
   .secondcontainer {
     display: grid;
-    background-color: red;
+    background-color: rgb(93, 187, 181);
+    width: 80%;
     grid-template-columns: 3fr, 1fr, 2fr;
     grid-template-rows: 1fr, 1fr;
   }
@@ -96,11 +100,11 @@ height: 1960px;
 background-color: rgb(39, 147, 159);
 }
 
-.grid-item img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
+// .grid-item img {
+//     max-width: 100%;
+//     height: auto;
+//     display: block;
+// }
 
 
 .image_1 {
