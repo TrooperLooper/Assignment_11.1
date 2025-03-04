@@ -3,6 +3,8 @@ $myColor: rgb(0, 107, 195);
 $myFontSize: 18px;
 
 body {
+    display: flex;
+    justify-content: center;
   font-family: $myFont;
 padding: 5%;  font-size: $myFontSize(50px);
 //   color: $myColor;
@@ -34,7 +36,7 @@ a {
 
 .navbar {
 display: flex;
-background-color: rgb(127, 57, 162);
+
 align-items: center;
 justify-content: center;
 }
@@ -42,7 +44,6 @@ justify-content: center;
 footer {
     width: 90%;
     display: flex;
-    background-color: rgb(59, 156, 24);
     align-items: center;
     justify-content: space-between;
     }
@@ -74,8 +75,8 @@ footer {
     display: grid;
     background-color: rgb(93, 187, 181);
     width: 80%;
-    grid-template-columns: 3fr, 1fr, 2fr;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
   }
 
 
