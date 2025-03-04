@@ -13,50 +13,53 @@ h1 {
     font-weight: 500px;
 }
 
-h2 {
-    font-size: 22px;
-    font-weight: 700px;
-}
-
-h3 {
-    font-size: $myfontsize;
-    font-weight: 700px;
-}
 
 a {
     font-size: 22px;
 }
 
-.italic {
-    font-style: italic;
-    color: gray;
+
+
+
+
+button {
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: #4A4FF2;
+    border: none;
 }
+
+button:hover {
+  background-color: #100d42;
+}
+
+.input-field:hover {
+  background-color: rgb(209, 213, 255);
+}
+
 
 .navbar {
 display: flex;
-background-color: rgb(127, 57, 162);
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
 align-items: center;
 justify-content: center;
+margin-bottom: 50px;
 }
 
-.sidebar {
-    padding-bottom: 10px;
-}
+
 
 footer {
     width: 90%;
     display: flex;
-    background-color: rgb(59, 156, 24);
+    background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: space-between;
+    margin-top: 50px;
     }
 
-.headline {
-    margin-top: 30px;
-    margin-bottom: 60px;
-    display: flex;
-    background-color: red;
-}
+
 
 
 .links, a:link, a:visited {
@@ -64,13 +67,68 @@ footer {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    &:hover {
-        color: rgb(0, 146, 137);
+    // &:hover {
+    //     color: rgb(0, 146, 137);
       }
 
-  }
 
   .links {
     margin-left: auto;
   }
   
+
+.topcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+min-width: none;
+max-width: 100%;
+  width: 100%;
+height: auto;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  }
+
+  // .leftalign {
+  //   width: 500px;
+  // }
+
+  .rightalign {
+    display: flex;
+    padding: 50px;
+    justify-self: end;
+  }
+
+
+cant seem to make the map
+.map {
+  display: flex;
+  justify-items: center;
+  margin-top: 50px;
+  width: auto;
+  max-width: 350px;
+  height: auto;
+  margin-bottom: 50px;
+}  
+
+
+
+form {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  min-width: 600px;
+  width: auto;
+}
+
+input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000000;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+
+
+
+
